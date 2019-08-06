@@ -23,7 +23,7 @@ def get_filters():
         if city in ['chicago', 'new york city', 'washington']:
             break
         else:
-            print("Sorry, I didn't quite get that. Please input a valid city")
+            print("\nSorry, I didn't quite get that. Please input a valid city")
 
     # Get user input for month (all, january, february, ... , june)
     while True:
@@ -31,7 +31,7 @@ def get_filters():
         if month in ['January', 'February', 'March', 'April', 'May', 'June', 'All']:
             break
         else:
-            print("Sorry, I didn't quite get that. Please input any month from January to June or type 'all' if you do not have any preference.")
+            print("\nSorry, I didn't quite get that. Please input any month from January to June or type 'all' if you do not have any preference.")
 
     # Get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -39,7 +39,7 @@ def get_filters():
         if day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']:
             break
         else:
-            print("Sorry, I didn't quite get that. Please input any day from Monday to Sunday or just type 'all' if you have no preference.")
+            print("\nSorry, I didn't quite get that. Please input any day from Monday to Sunday or just type 'all' if you have no preference.")
 
     print('-'*40)
     return city, month, day
@@ -189,7 +189,7 @@ def raw_data(df):
     index1 = 0
     index2 = 5
     while True:
-        raw_data = input('Would you like to see more raw data?\nPlease type yes or no.').lower()
+        raw_data = input('Would you like to see more raw data?\nPlease type yes or no.\n').lower()
         if raw_data == 'yes':
             print(df.iloc[index1:index2])
             index1 += 5
