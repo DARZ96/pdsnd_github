@@ -189,7 +189,7 @@ def raw_data(df):
     index1 = 0
     index2 = 5
     while True:
-        raw_data = input('Would you like to see more raw data?\nPlease type yes or no.').lower()
+        raw_data = input('Would you like to see more raw data?\nPlease type yes or no.\n').lower()
         if raw_data == 'yes':
             print(df.iloc[index1:index2])
             index1 += 5
