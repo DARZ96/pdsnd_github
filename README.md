@@ -21,6 +21,8 @@ The Chicago and New York City files also have the following two columns:
 - Gender
 - Birth Year
 
+![Data for the first 10 rides in the New York City dataset](https://video.udacity-data.com/topher/2018/March/5aa771dc_nyc-data/nyc-data.png)
+
 ### Statistics Computed
 - Popular times of travel
     - most common month
