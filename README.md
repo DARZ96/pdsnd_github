@@ -51,3 +51,6 @@ The Chicago and New York City files also have the following two columns:
 - Python 3, NumPy, and pandas installed using Anaconda
 - A text editor, like Sublime or Atom
 - A terminal application
+
+### Credits
+Big thanks to Udacity for providing all the necessary materials and content for completing this project.
